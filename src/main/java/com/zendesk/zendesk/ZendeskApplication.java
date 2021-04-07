@@ -46,7 +46,7 @@ public class ZendeskApplication {
 		String Url = "https://www.zopim.com/api/v2/chats?cursor="+cursor;
 		BufferedWriter writer = new BufferedWriter(new FileWriter("data.txt",true));
 
-		String token_value = "wSSSrIHetm4PtstTR2Xtcg5jIFJXiyLTjHxc7R7KwJMONK8F0yMWQPZgN9xOaP78";
+		String token_value = "YOUR TOKEN";
 		//setting the headers
 		HttpHeaders headers = new HttpHeaders();
 		headers.add("Authorization", "Bearer " + token_value);
